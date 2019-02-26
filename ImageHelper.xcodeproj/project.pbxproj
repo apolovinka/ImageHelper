@@ -368,9 +368,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				65EAC4AF1D8C42170001F670 /* ImageHelper iOS */,
 				6581F3D51968328100C5CA28 /* Demo iOS */,
 				65F5EC3C1D8C493C004A35E8 /* Demo tvOS */,
-				65EAC4AF1D8C42170001F670 /* ImageHelper iOS */,
 				65EAC4C11D8C42270001F670 /* ImageHelper watchOS */,
 				65EAC4CE1D8C423D0001F670 /* ImageHelper tvOS */,
 			);
@@ -606,7 +606,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.allforces.ImageHelperDemo-iOS";
 				PRODUCT_NAME = AFImageHelper;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -624,7 +624,7 @@
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.allforces.ImageHelperDemo-iOS";
 				PRODUCT_NAME = AFImageHelper;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
