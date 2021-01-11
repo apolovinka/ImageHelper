@@ -9,8 +9,8 @@
 
 Pod::Spec.new do |s|
     s.name = "AFImageHelper"
-    s.version = "3.2.2"
-    s.summary = "Image Extensions for Swift 3.0"
+    s.version = "3.2.3"
+    s.summary = "Image Extensions for Swift 5.0"
     s.description = <<-DESC
 A collection of extensions for handling image creation from colors and gradients; Manipulating by cropping and scaling; Background fetching from the web with support for caching.
     DESC
@@ -21,11 +21,11 @@ A collection of extensions for handling image creation from colors and gradients
     s.source = { :git => "https://github.com/melvitax/ImageHelper.git", :tag => s.version.to_s }
     s.social_media_url = 'https://twitter.com/melvitax'
 
-    s.platforms = { :ios => '8.4', :tvos => '9.0' }
-    s.ios.deployment_target = "8.4"
+    s.platforms = { :ios => '11.4', :tvos => '9.0' }
+    s.ios.deployment_target = "11.0"
     s.tvos.deployment_target = "9.0"
 
-    s.xcconfig = { 'SWIFT_VERSION' => '3.0' }
+    s.xcconfig = { 'SWIFT_VERSION' => '5.0' }
 
     s.source_files = "Sources/**/*.{h,swift}"
 
